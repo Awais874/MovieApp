@@ -124,11 +124,11 @@ else
           placeholder="Password"
           className="text-black p-2 bg-gray-700 my-2 w-full"
         />
-        <p className="text-red-700">{errorMessage}</p>
+        <p className="text-red-500">{errorMessage}</p>
 
         <button
           onClick={handleButtonClick}
-          className="bg-red-400 p-4 my-4 bg-slate-600 rounded-lg w-full"
+          className="bg-red-700 p-4 my-4 rounded-lg w-full"
         >
           {isSignInForm ? "Sign In" : "Sign Up"}{" "}
         </button>
